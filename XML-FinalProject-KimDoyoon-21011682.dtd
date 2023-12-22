@@ -1,0 +1,80 @@
+<!ELEMENT Sports (Matches, Teams, Players)>
+<!ATTLIST Sports category CDATA #REQUIRED>
+
+<!ELEMENT Matches (match+)>
+<!ELEMENT match (match_info, match_result, match_statistics)>
+<!ATTLIST match match_no ID #REQUIRED>
+<!-- match_no의 데이터 타입 CDATA -> ID 로 변경 -->
+
+<!ELEMENT match_info (info, date)>
+<!ELEMENT info (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date week CDATA #REQUIRED>
+
+<!ELEMENT match_result (Winner, Loser)>
+<!ELEMENT Winner (team_name, manager, strategy, starting_list, substitutes)>
+<!ELEMENT Loser (team_name, manager, strategy, starting_list, substitutes)>
+<!ELEMENT team_name (#PCDATA)>
+<!ATTLIST team_name team_info IDREF #REQUIRED>
+<!ELEMENT manager (#PCDATA)>
+<!ELEMENT strategy (#PCDATA)>
+<!ELEMENT starting_list (match_player+)>
+<!ELEMENT match_player EMPTY>
+<!ENTITY % match_player_info
+    'num CDATA #REQUIRED
+    position CDATA #REQUIRED
+    goal CDATA #IMPLIED
+    own_goal CDATA #IMPLIED
+    captain (yes|no) "no"'>
+<!ATTLIST match_player %match_player_info; >
+
+<!ELEMENT substitutes (match_player*)>
+<!ATTLIST match_player replaced_num CDATA #IMPLIED>
+
+<!ELEMENT match_statistics (score, Possession, Shots_on_target, Shots)>
+<!ELEMENT score (#PCDATA)>
+<!ELEMENT Possession (#PCDATA)>
+<!ELEMENT Shots_on_target (#PCDATA)>
+<!ELEMENT Shots (#PCDATA)>
+
+<!ELEMENT Teams (team+)>
+<!ELEMENT team (team_basicinfo, team_statistics, player_roster)>
+<!ATTLIST team team_no ID #REQUIRED>
+
+<!ELEMENT team_basicinfo (Team_name, League)>
+<!ELEMENT Team_name (#PCDATA)>
+<!ELEMENT League (#PCDATA)>
+
+<!ELEMENT team_statistics (league_ranking, point, rate, rate, rate)>
+<!ELEMENT league_ranking (#PCDATA)>
+<!ELEMENT point (#PCDATA)>
+<!ELEMENT rate (#PCDATA)>
+<!ATTLIST rate outcome (win|draw|lose) #REQUIRED>
+
+<!ELEMENT player_roster (player+)>
+<!ELEMENT player EMPTY>
+<!ATTLIST player player_info IDREF #REQUIRED>
+
+<!ELEMENT Players (Player+)>
+<!ELEMENT Player (Player_basicinfo, Player_statistics, Player_career)>
+<!ATTLIST Player Player_id ID #REQUIRED>
+
+<!ELEMENT Player_basicinfo (Player_name, Position, Age, Nationality, SNS?)>
+<!ELEMENT Player_name (#PCDATA)>
+<!ELEMENT Position (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Nationality (#PCDATA)>
+<!ELEMENT SNS EMPTY>
+<!ATTLIST SNS href CDATA #REQUIRED>
+
+<!ELEMENT Player_statistics EMPTY>
+<!ENTITY % Player_statistics_info
+    'Appearances CDATA "0"
+    Clean_sheets CDATA "0"
+    Goals CDATA "0"
+    Assists CDATA "0"'>
+<!ATTLIST Player_statistics %Player_statistics_info;>
+
+<!ELEMENT Player_career (Player_team, Player_num)>
+<!ELEMENT Player_team (#PCDATA)>
+<!ELEMENT Player_num (#PCDATA)>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.Teams.org"
+            xmlns="http://www.Teams.org"
+            elementFormDefault="qualified">
+
+    <xsd:element name="Teams">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element minOccurs="2" maxOccurs="unbounded" ref="team" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="team">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="team_basicinfo" />
+                <xsd:element ref="team_statistics" />
+                <xsd:element ref="player_roster" />
+            </xsd:sequence>
+            <xsd:attribute name="team_no" use="required" type="team_no_type" />
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="team_no_type">
+        <xsd:restriction base="xsd:ID">
+            <xsd:pattern value="T\d+" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="team_basicinfo">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Team_name" type="xsd:string" />
+                <xsd:element name="League" type="xsd:string" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="team_statistics">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="league_ranking" />
+                <xsd:element ref="point" />
+                <xsd:element ref="rate" minOccurs="3" maxOccurs="3" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="league_ranking" type="xsd:integer" />
+    <xsd:element name="point" type="xsd:integer" />
+    <xsd:element name="rate" type="rate_type" />
+    <xsd:complexType name="rate_type">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:integer">
+                <xsd:attribute name="outcome" use="required">
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="win" />
+                            <xsd:enumeration value="draw" />
+                            <xsd:enumeration value="lose" />
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                </xsd:attribute>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:element name="player_roster">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="player" minOccurs="1" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:attribute name="player_info" use="required" type="player_info_type" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="player_info_type">
+        <xsd:restriction base="xsd:IDREF">
+            <xsd:pattern value="P\d+" />
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

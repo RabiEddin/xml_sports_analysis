@@ -1,0 +1,4 @@
+*.pptx
+*.docx
+.DS_Store
+.idea

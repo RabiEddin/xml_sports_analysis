@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.Players.org"
+            xmlns="http://www.Players.org"
+            elementFormDefault="qualified">
+    <xsd:element name="Players">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element minOccurs="1" maxOccurs="unbounded" ref="Player" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="Player">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="Player_basicinfo" />
+                <xsd:element ref="Player_statistics" />
+                <xsd:element ref="Player_career" />
+            </xsd:sequence>
+            <xsd:attribute name="Player_id" use="required" type="Player_id_type" />
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="Player_id_type">
+        <xsd:restriction base="xsd:ID">
+            <xsd:pattern value="P\d+" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="Player_basicinfo">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Player_name" type="xsd:string" />
+                <xsd:element name="Position" type="Position_type" />
+                <xsd:element name="Age" type="xsd:integer" />
+                <xsd:element name="Nationality" type="xsd:string" />
+                <xsd:element name="SNS" minOccurs="0" maxOccurs="1">
+                    <xsd:complexType>
+                        <xsd:attribute name="href" use="required" type="xsd:anyURI" />
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="Position_type">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Goalkeeper" />
+            <xsd:enumeration value="Defender" />
+            <xsd:enumeration value="Midfielder" />
+            <xsd:enumeration value="Forward" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="Player_statistics">
+        <xsd:complexType>
+            <xsd:attribute name="Appearances" type="xsd:integer" default="0" />
+            <xsd:attribute name="Clean_sheets" type="xsd:integer" default="0" />
+            <xsd:attribute name="Goals" type="xsd:integer" default="0" />
+            <xsd:attribute name="Assists" type="xsd:integer" default="0" />
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="Player_career">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="Player_team" type="xsd:string" />
+                <xsd:element name="Player_num" type="xsd:integer" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

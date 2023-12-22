@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.matches.org"
+            xmlns="http://www.matches.org"
+            xmlns:tms="http://www.Teams.org"
+            xmlns:ply="http://www.Players.org"
+            elementFormDefault="qualified">
+    <xsd:include schemaLocation="XML-FinalProject-KimDoyoon-21011682-2.xsd" />
+    <xsd:import namespace="http://www.Teams.org"
+                schemaLocation="XML-FinalProject-KimDoyoon-21011682-4.xsd" />
+    <xsd:import namespace="http://www.Players.org"
+                schemaLocation="XML-FinalProject-KimDoyoon-21011682-5.xsd" />
+
+    <xsd:element name="Sports">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="Matches" />
+                <xsd:element ref="tms:Teams" />
+                <xsd:element ref="ply:Players" />
+            </xsd:sequence>
+            <xsd:attribute name="category" use="required" type="xsd:string" />
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.matches.org"
+            xmlns="http://www.matches.org"
+            elementFormDefault="qualified">
+    <xsd:include schemaLocation="XML-FinalProject-KimDoyoon-21011682-3.xsd" />
+
+    <xsd:element name="Matches">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="match" minOccurs="1" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="match">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="match_info" />
+                <xsd:element ref="match_result" />
+                <xsd:element ref="match_statistics" />
+            </xsd:sequence>
+            <xsd:attribute name="match_no" use="required" type="match_no_type" />
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="match_no_type">
+        <xsd:restriction base="xsd:ID">
+            <xsd:pattern value="M\d+" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="match_info">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="info" />
+                <xsd:element ref="date" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="info" type="xsd:string" />
+    <xsd:element name="date" type="date_type" />
+    <xsd:complexType name="date_type">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:date">
+                <xsd:attribute name="week" use="required" type="xsd:integer" />
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:element name="match_statistics">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="score" type="match-element_type" />
+                <xsd:element name="Possession" type="Possession_type" />
+                <xsd:element name="Shots_on_target" type="match-element_type" />
+                <xsd:element name="Shots" type="match-element_type" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:simpleType name="match-element_type">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d+:\d+" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="Possession_type">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d+(\.\d+):\d+(\.\d+)" />
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>

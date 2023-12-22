@@ -1,0 +1,2494 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Sports category="soccer">
+    <Matches>
+        <match match_no="M1">
+            <match_info>
+                <info>MCI vs MUN</info>
+                <date week = "10">2023-10-29</date>
+            </match_info>
+            <match_result>
+                <Winner>
+                    <team_name team_info="T1">Man City</team_name>
+                    <manager>Josep Guardiola</manager>
+                    <strategy>4-2-3-1</strategy>
+                    <starting_list>
+                        <match_player num = "31" position="Goalkeeper" />
+                        <match_player num = "2" position="Defender" captain = "yes" />
+                        <match_player num = "3" position="Defender" />
+                        <match_player num = "5" position="Defender"/>
+                        <match_player num = "24" position="Defender"/>
+                        <match_player num = "10" position="Midfielder"/>
+                        <match_player num = "16" position="Midfielder"/>
+                        <match_player num = "19" position="Midfielder"/>
+                        <match_player num = "20" position="Midfielder"/>
+                        <match_player num = "47" position="Midfielder" goal = "1" />
+                        <match_player num = "9" position="Forward" goal = "2" />
+                    </starting_list>
+                    <substitutes>
+                        <match_player num="8" position="Midfielder" replaced_num="19" />
+                        <match_player num="11" position="Forward" replaced_num="10" />
+                    </substitutes>
+                </Winner>
+                <Loser>
+                    <team_name team_info="T2">Man Utd</team_name>
+                    <manager>Erik ten Hag</manager>
+                    <strategy>4-2-3-1</strategy>
+                    <starting_list>
+                        <match_player num = "24" position="Goalkeeper" />
+                        <match_player num = "2" position="Defender" />
+                        <match_player num = "5" position="Defender"/>
+                        <match_player num = "20" position="Defender"/>
+                        <match_player num = "35" position="Defender"/>
+                        <match_player num = "4" position="Midfielder"/>
+                        <match_player num = "8"  position="Midfielder" captain = "yes" />
+                        <match_player num = "10" position="Midfielder"/>
+                        <match_player num = "14" position="Midfielder"/>
+                        <match_player num = "39" position="Midfielder"/>
+                        <match_player num = "11" position="Forward"/>
+                    </starting_list>
+                    <substitutes>
+                        <match_player num="15" position="Defender" replaced_num="2" />
+                        <match_player num="9" position="Forward" replaced_num="10" />
+                        <match_player num="17" position="Forward" replaced_num="11" />
+                        <match_player num="21" position="Forward" replaced_num="14" />
+                    </substitutes>
+                </Loser>
+            </match_result>
+            <match_statistics>
+                <!--                    Winner team:loser team-->
+                <score>3:0</score>
+                <Possession>60.5:39.5</Possession>
+                <Shots_on_target>10:3</Shots_on_target>
+                <Shots>21:7</Shots>
+            </match_statistics>
+        </match>
+        <match match_no="M2">
+            <match_info>
+                <info>WOL vs LIV</info>
+                <date week="5">2023-09-16</date>
+            </match_info>
+            <match_result>
+                <Winner>
+                    <team_name team_info="T3">Liverpool</team_name>
+                    <manager>Jürgen Klopp</manager>
+                    <strategy>4-3-3</strategy>
+                    <starting_list>
+                        <match_player num="1" position="Goalkeeper"/>
+                        <match_player num="2" position="Defender"/>
+                        <match_player num="26" position="Defender" goal="1" captain="yes"/>
+                        <match_player num="32" position="Defender"/>
+                        <match_player num="78" position="Defender"/>
+                        <match_player num="8" position="Midfielder"/>
+                        <match_player num="10" position="Midfielder"/>
+                        <match_player num="17" position="Midfielder"/>
+                        <match_player num="11" position="Forward"/>
+                        <match_player num="18" position="Forward" goal="1"/>
+                        <match_player num="20" position="Forward"/>
+                    </starting_list>
+                    <substitutes>
+                        <match_player num="5" position="Defender" replaced_num="78"/>
+                        <match_player num="19" position="Midfielder" replaced_num="20"/>
+                        <match_player num="38" position="Midfielder" replaced_num="11"/>
+                        <match_player num="7" position="Forward" replaced_num="10"/>
+                        <match_player num="9" position="Forward" replaced_num="18"/>
+                    </substitutes>
+                </Winner>
+                <Loser>
+                    <team_name team_info="T4">Wolves</team_name>
+                    <manager>Gary O'Neil</manager>
+                    <strategy>4-2-3-1</strategy>
+                    <starting_list>
+                        <match_player num="1" position="Goalkeeper"/>
+                        <match_player num="3" position="Defender"/>
+                        <match_player num="15" position="Defender"/>
+                        <match_player num="22" position="Defender"/>
+                        <match_player num="23" position="Defender" captain="yes"/>
+                        <match_player num="5" position="Midfielder"/>
+                        <match_player num="7" position="Midfielder"/>
+                        <match_player num="8" position="Midfielder"/>
+                        <match_player num="11" position="Midfielder" goal="1"/>
+                        <match_player num="27" position="Midfielder"/>
+                        <match_player num="12" position="Forward"/>
+                    </starting_list>
+                    <substitutes>
+                        <match_player num="2" position="Defender" replaced_num="11"/>
+                        <match_player num="17" position="Defender" replaced_num="3" own_goal="1"/>
+                        <match_player num="6" position="Midfielder" replaced_num="5"/>
+                        <match_player num="20" position="Midfielder" replaced_num="27"/>
+                        <match_player num="9" position="Forward" replaced_num="12"/>
+                    </substitutes>
+                </Loser>
+            </match_result>
+            <match_statistics>
+                <score>1:3</score>
+                <Possession>34.2:65.8</Possession>
+                <Shots_on_target>2:6</Shots_on_target>
+                <Shots>11:16</Shots>
+            </match_statistics>
+        </match>
+        <match match_no="M3">
+            <match_info>
+                <info>TOT vs LIV</info>
+                <date week="7">2023-10-01</date>
+            </match_info>
+            <match_result>
+                <Winner>
+                    <team_name team_info="T5">Spurs</team_name>
+                    <manager>Ange Postecoglou</manager>
+                    <strategy>4-2-3-1</strategy>
+                    <starting_list>
+                        <match_player num="13" position="Goalkeeper"/>
+                        <match_player num="17" position="Defender"/>
+                        <match_player num="23" position="Defender"/>
+                        <match_player num="37" position="Defender"/>
+                        <match_player num="38" position="Defender"/>
+                        <match_player num="8" position="Midfielder"/>
+                        <match_player num="9" position="Midfielder"/>
+                        <match_player num="10" position="Midfielder"/>
+                        <match_player num="21" position="Midfielder"/>
+                        <match_player num="29" position="Midfielder"/>
+                        <match_player num="7" position="Forward" captain="yes" goal="1"/>
+                    </starting_list>
+                    <substitutes>
+                        <match_player num="33" position="Defender" replaced_num="38"/>
+                        <match_player num="4" position="Midfielder" replaced_num="29"/>
+                        <match_player num="5" position="Midfielder" replaced_num="8"/>
+                        <match_player num="27" position="Forward" replaced_num="7"/>
+                        <match_player num="36" position="Forward" replaced_num="10"/>
+                    </substitutes>
+                </Winner>
+                <Loser>
+                    <team_name team_info="T3">Liverpool</team_name>
+                    <manager>Jürgen Klopp</manager>
+                    <strategy>4-3-3</strategy>
+                    <starting_list>
+                        <match_player num="1" position="Goalkeeper"/>
+                        <match_player num="2" position="Defender"/>
+                        <match_player num="4" position="Defender" captain="yes"/>
+                        <match_player num="26" position="Defender"/>
+                        <match_player num="32" position="Defender" own_goal="1"/>
+                        <match_player num="8" position="Midfielder"/>
+                        <match_player num="10" position="Midfielder"/>
+                        <match_player num="17" position="Midfielder"/>
+                        <match_player num="7" position="Forward"/>
+                        <match_player num="11" position="Forward"/>
+                        <match_player num="18" position="Forward" goal="1"/>
+                    </starting_list>
+                    <substitutes>
+                        <match_player num="5" position="Defender" replaced_num="2"/>
+                        <match_player num="66" position="Defender" replaced_num="11"/>
+                        <match_player num="3" position="Midfielder" replaced_num="7"/>
+                        <match_player num="38" position="Midfielder" replaced_num="10"/>
+                        <match_player num="20" position="Forward" replaced_num="18"/>
+                    </substitutes>
+                </Loser>
+            </match_result>
+            <match_statistics>
+                <score>2:1</score>
+                <Possession>64.5:35.5</Possession>
+                <Shots_on_target>8:4</Shots_on_target>
+                <Shots>24:12</Shots>
+            </match_statistics>
+        </match>
+        <match match_no="M4">
+            <match_info>
+                <info>WOL vs MCI</info>
+                <date week="7">2023-09-30</date>
+            </match_info>
+            <match_result>
+                <Winner>
+                    <team_name team_info="T4">Wolves</team_name>
+                    <manager>Gary O'Neil</manager>
+                    <strategy>3-4-3</strategy>
+                    <starting_list>
+                        <match_player num="1" position="Goalkeeper"/>
+                        <match_player num="15" position="Defender"/>
+                        <match_player num="23" position="Defender" captain="yes"/>
+                        <match_player num="24" position="Defender"/>
+                        <match_player num="3" position="Midfielder"/>
+                        <match_player num="5" position="Midfielder"/>
+                        <match_player num="8" position="Midfielder"/>
+                        <match_player num="22" position="Midfielder"/>
+                        <match_player num="7" position="Forward"/>
+                        <match_player num="11" position="Forward" goal="1"/>
+                        <match_player num="12" position="Forward"/>
+                    </starting_list>
+                    <substitutes>
+                        <match_player num="2" position="Defender" replaced_num="3"/>
+                        <match_player num="19" position="Defender" replaced_num="11"/>
+                        <match_player num="6" position="Midfielder" replaced_num="8"/>
+                        <match_player num="9" position="Forward" replaced_num="12"/>
+                    </substitutes>
+                </Winner>
+                <Loser>
+                    <team_name team_info="T1">Man City</team_name>
+                    <manager>Josep Guardiola</manager>
+                    <strategy>4-2-3-1</strategy>
+                    <starting_list>
+                        <match_player num="31" position="Goalkeeper"/>
+                        <match_player num="2" position="Defender" captain="yes"/>
+                        <match_player num="3" position="Defender" own_goal="1"/>
+                        <match_player num="6" position="Defender"/>
+                        <match_player num="25" position="Defender"/>
+                        <match_player num="8" position="Midfielder"/>
+                        <match_player num="11" position="Midfielder"/>
+                        <match_player num="19" position="Midfielder" goal="1"/>
+                        <match_player num="27" position="Midfielder"/>
+                        <match_player num="47" position="Midfielder"/>
+                        <match_player num="9" position="Forward"/>
+                    </starting_list>
+                    <substitutes>
+                        <match_player num="4" position="Midfielder" replaced_num="8"/>
+                        <match_player num="10" position="Midfielder" replaced_num="6"/>
+                        <match_player num="52" position="Midfielder" replaced_num="27"/>
+                    </substitutes>
+                </Loser>
+            </match_result>
+            <match_statistics>
+                <score>2:1</score>
+                <Possession>31.9:68.1</Possession>
+                <Shots_on_target>1:8</Shots_on_target>
+                <Shots>3:23</Shots>
+            </match_statistics>
+        </match>
+    </Matches>
+    <!-- 2023.11.02 기준 순위 정보 -->
+    <Teams>
+        <team team_no="T1">
+            <team_basicinfo>
+                <Team_name>Man City</Team_name>
+                <League>EPL</League>
+            </team_basicinfo>
+            <team_statistics>
+                <league_ranking>3</league_ranking>
+                <point>24</point>
+                <rate outcome= "win">8</rate>
+                <rate outcome="draw">0</rate>
+                <rate outcome="lose">2</rate>
+            </team_statistics>
+            <player_roster>
+                <player player_info="P1" />
+                <player player_info="P2" />
+                <player player_info="P3" />
+                <player player_info="P4" />
+                <player player_info="P5" />
+                <player player_info="P6" />
+                <player player_info="P7" />
+                <player player_info="P8" />
+                <player player_info="P9" />
+                <player player_info="P10" />
+                <player player_info="P11" />
+                <player player_info="P12" />
+                <player player_info="P13" />
+                <player player_info="P14" />
+                <player player_info="P15" />
+                <player player_info="P16" />
+                <player player_info="P17" />
+                <player player_info="P18" />
+                <player player_info="P19" />
+                <player player_info="P20" />
+                <player player_info="P21" />
+                <player player_info="P22" />
+                <player player_info="P23" />
+                <player player_info="P24" />
+                <player player_info="P25" />
+            </player_roster>
+        </team>
+        <team team_no="T2">
+            <team_basicinfo>
+                <Team_name>Man Utd</Team_name>
+                <League>EPL</League>
+            </team_basicinfo>
+            <team_statistics>
+                <league_ranking>8</league_ranking>
+                <point>15</point>
+                <rate outcome= "win">5</rate>
+                <rate outcome="draw">0</rate>
+                <rate outcome="lose">5</rate>
+            </team_statistics>
+            <player_roster>
+                <player player_info="P26" />
+                <player player_info="P27" />
+                <player player_info="P28" />
+                <player player_info="P29" />
+                <player player_info="P30" />
+                <player player_info="P31" />
+                <player player_info="P32" />
+                <player player_info="P33" />
+                <player player_info="P34" />
+                <player player_info="P35" />
+                <player player_info="P36" />
+                <player player_info="P37" />
+                <player player_info="P38" />
+                <player player_info="P39" />
+                <player player_info="P40" />
+                <player player_info="P41" />
+                <player player_info="P42" />
+                <player player_info="P43" />
+                <player player_info="P44" />
+                <player player_info="P45" />
+                <player player_info="P46" />
+                <player player_info="P47" />
+                <player player_info="P48" />
+                <player player_info="P49" />
+                <player player_info="P50" />
+                <player player_info="P51" />
+                <player player_info="P52" />
+                <player player_info="P53" />
+                <player player_info="P54" />
+                <player player_info="P55" />
+                <player player_info="P56" />
+                <player player_info="P57" />
+                <player player_info="P58" />
+                <player player_info="P59" />
+            </player_roster>
+        </team>
+        <team team_no="T3">
+            <team_basicinfo>
+                <Team_name>Liverpool</Team_name>
+                <League>EPL</League>
+            </team_basicinfo>
+            <team_statistics>
+                <league_ranking>4</league_ranking>
+                <point>23</point>
+                <rate outcome= "win">7</rate>
+                <rate outcome="draw">2</rate>
+                <rate outcome="lose">1</rate>
+            </team_statistics>
+            <player_roster>
+                <player player_info="P60" />
+                <player player_info="P61" />
+                <player player_info="P62" />
+                <player player_info="P63" />
+                <player player_info="P64" />
+                <player player_info="P65" />
+                <player player_info="P66" />
+                <player player_info="P67" />
+                <player player_info="P68" />
+                <player player_info="P69" />
+                <player player_info="P70" />
+                <player player_info="P71" />
+                <player player_info="P72" />
+                <player player_info="P73" />
+                <player player_info="P74" />
+                <player player_info="P75" />
+                <player player_info="P76" />
+                <player player_info="P77" />
+                <player player_info="P78" />
+                <player player_info="P79" />
+                <player player_info="P80" />
+                <player player_info="P81" />
+                <player player_info="P82" />
+                <player player_info="P83" />
+                <player player_info="P84" />
+                <player player_info="P85" />
+                <player player_info="P86" />
+                <player player_info="P87" />
+                <player player_info="P88" />
+                <player player_info="P89" />
+                <player player_info="P90" />
+            </player_roster>
+        </team>
+        <team team_no="T4">
+            <team_basicinfo>
+                <Team_name>Wolves</Team_name>
+                <League>EPL</League>
+            </team_basicinfo>
+            <team_statistics>
+                <league_ranking>12</league_ranking>
+                <point>12</point>
+                <rate outcome= "win">3</rate>
+                <rate outcome="draw">3</rate>
+                <rate outcome="lose">4</rate>
+            </team_statistics>
+            <player_roster>
+                <player player_info="P92" />
+                <player player_info="P91" />
+                <player player_info="P93" />
+                <player player_info="P94" />
+                <player player_info="P95" />
+                <player player_info="P96" />
+                <player player_info="P97" />
+                <player player_info="P98" />
+                <player player_info="P99" />
+                <player player_info="P100" />
+                <player player_info="P101" />
+                <player player_info="P102" />
+                <player player_info="P103" />
+                <player player_info="P104" />
+                <player player_info="P105" />
+                <player player_info="P106" />
+                <player player_info="P107" />
+                <player player_info="P108" />
+                <player player_info="P109" />
+                <player player_info="P110" />
+                <player player_info="P111" />
+                <player player_info="P112" />
+                <player player_info="P113" />
+                <player player_info="P114" />
+                <player player_info="P115" />
+                <player player_info="P116" />
+                <player player_info="P117" />
+            </player_roster>
+        </team>
+        <team team_no="T5">
+            <team_basicinfo>
+                <Team_name>Spurs</Team_name>
+                <League>EPL</League>
+            </team_basicinfo>
+            <team_statistics>
+                <league_ranking>1</league_ranking>
+                <point>26</point>
+                <rate outcome= "win">8</rate>
+                <rate outcome="draw">2</rate>
+                <rate outcome="lose">0</rate>
+            </team_statistics>
+            <player_roster>
+                <player player_info="P118" />
+                <player player_info="P119" />
+                <player player_info="P120" />
+                <player player_info="P121" />
+                <player player_info="P122" />
+                <player player_info="P123" />
+                <player player_info="P124" />
+                <player player_info="P125" />
+                <player player_info="P126" />
+                <player player_info="P127" />
+                <player player_info="P128" />
+                <player player_info="P129" />
+                <player player_info="P130" />
+                <player player_info="P131" />
+                <player player_info="P132" />
+                <player player_info="P133" />
+                <player player_info="P134" />
+                <player player_info="P135" />
+                <player player_info="P136" />
+                <player player_info="P137" />
+                <player player_info="P138" />
+                <player player_info="P139" />
+                <player player_info="P140" />
+                <player player_info="P141" />
+                <player player_info="P142" />
+                <player player_info="P143" />
+                <player player_info="P144" />
+                <player player_info="P145" />
+                <player player_info="P146" />
+                <player player_info="P147" />
+            </player_roster>
+        </team>
+    </Teams>
+    <Players>
+        <Player Player_id="P1">
+            <Player_basicinfo>
+                <Player_name>Stefan Ortega</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>30</Age>
+                <Nationality>Germany</Nationality>
+                <SNS href = "https://www.instagram.com/stefan.ortega1/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances = "4" Clean_sheets = "2" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>18</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P2">
+            <Player_basicinfo>
+                <Player_name>Ederson</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>30</Age>
+                <Nationality>Brazil</Nationality>
+                <SNS href = "https://www.instagram.com/ederson93/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="226" Clean_sheets="106" Assists = "3" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>31</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P3">
+            <Player_basicinfo>
+                <Player_name>Scott Carson</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>38</Age>
+                <Nationality>England</Nationality>
+                <SNS href = "https://www.instagram.com/scottpcarson33/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="146" Clean_sheets="30" Assists="2" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>33</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P4">
+            <Player_basicinfo>
+                <Player_name>Zack Steffen</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>28</Age>
+                <Nationality>United States</Nationality>
+                <SNS href = "https://www.instagram.com/zacksteffen_/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="2" Clean_sheets="1" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>13</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P5">
+            <Player_basicinfo>
+                <Player_name>Kyle Walker</Player_name>
+                <Position>Defender</Position>
+                <Age>33</Age>
+                <Nationality>England</Nationality>
+                <SNS href = "https://www.instagram.com/kylewalker2/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="373" Clean_sheets="127" Goals = "8" Assists="33" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>2</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P6">
+            <Player_basicinfo>
+                <Player_name>Rúben Dias</Player_name>
+                <Position>Defender</Position>
+                <Age>26</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href = "https://www.instagram.com/rubendias/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="96" Clean_sheets="37" Goals="3" Assists="4" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>3</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P7">
+            <Player_basicinfo>
+                <Player_name>John Stones</Player_name>
+                <Position>Defender</Position>
+                <Age>29</Age>
+                <Nationality>England</Nationality>
+                <SNS href = "https://www.instagram.com/johnstonesofficial/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="224" Clean_sheets="71" Goals="8" Assists="2" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>5</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P8">
+            <Player_basicinfo>
+                <Player_name>Nathan Aké</Player_name>
+                <Position>Defender</Position>
+                <Age>28</Age>
+                <Nationality>Netherlands</Nationality>
+                <SNS href = "https://www.instagram.com/nathanake/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="204" Clean_sheets="44" Goals="17" Assists="6" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>6</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P9">
+            <Player_basicinfo>
+                <Player_name>Manuel Akanii</Player_name>
+                <Position>Defender</Position>
+                <Age>28</Age>
+                <Nationality>Switzerland</Nationality>
+                <SNS href = "https://www.instagram.com/obafemi.5/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="36" Clean_sheets="9" Assists="1" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>25</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P10">
+            <Player_basicinfo>
+                <Player_name>Rico Lewis</Player_name>
+                <Position>Defender</Position>
+                <Age>18</Age>
+                <Nationality>England</Nationality>
+                <SNS href = "https://www.instagram.com/rico.lewis/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="18" Clean_sheets="1" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>82</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P11">
+            <Player_basicinfo>
+                <Player_name>Josko Gvardiol</Player_name>
+                <Position>Defender</Position>
+                <Age>21</Age>
+                <Nationality>Croatia</Nationality>
+                <SNS href = "https://www.instagram.com/josko_gvardiol/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="8" Clean_sheets="3" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>24</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P12">
+            <Player_basicinfo>
+                <Player_name>Kalvin Phillips</Player_name>
+                <Position>Midfielder</Position>
+                <Age>27</Age>
+                <Nationality>England</Nationality>
+                <SNS href = "https://www.instagram.com/kalvinphillips/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="64" Goals="1" Assists="3" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>4</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P13">
+            <Player_basicinfo>
+                <Player_name>Jack Grealish</Player_name>
+                <Position>Midfielder</Position>
+                <Age>28</Age>
+                <Nationality>England</Nationality>
+                <SNS href = "https://www.instagram.com/jackgrealish/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="156" Goals="23" Assists="27" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>10</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P14">
+            <Player_basicinfo>
+                <Player_name>Rodri</Player_name>
+                <Position>Midfielder</Position>
+                <Age>27</Age>
+                <Nationality>Spain</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="146" Goals="16" Assists="13" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>16</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P15">
+            <Player_basicinfo>
+                <Player_name>Kevin De Bruyne</Player_name>
+                <Position>Midfielder</Position>
+                <Age>32</Age>
+                <Nationality>Belgium</Nationality>
+                <SNS href = "https://www.instagram.com/kevindebruyne/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="243" Goals="64" Assists="102" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>17</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P16">
+            <Player_basicinfo>
+                <Player_name>Bernardo Silva</Player_name>
+                <Position>Midfielder</Position>
+                <Age>29</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href = "https://www.instagram.com/bernardocarvalhosilva/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="207" Goals="34" Assists="35" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>20</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P17">
+            <Player_basicinfo>
+                <Player_name>Sergio Gómez</Player_name>
+                <Position>Midfielder</Position>
+                <Age>23</Age>
+                <Nationality>Spain</Nationality>
+                <SNS href = "https://www.instagram.com/sergiogm_10/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="14" Assists="2" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>21</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P18">
+            <Player_basicinfo>
+                <Player_name>Phil Foden</Player_name>
+                <Position>Midfielder</Position>
+                <Age>23</Age>
+                <Nationality>England</Nationality>
+                <SNS href = "https://www.instagram.com/philfoden/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="139" Goals="37" Assists="21" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>47</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P19">
+            <Player_basicinfo>
+                <Player_name>Mateo Kovacic</Player_name>
+                <Position>Midfielder</Position>
+                <Age>29</Age>
+                <Nationality>Croatia</Nationality>
+                <SNS href = "https://www.instagram.com/mateokovacic8/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="149" Goals="4" Assists="13" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>8</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P20">
+            <Player_basicinfo>
+                <Player_name>Oscar Bobb</Player_name>
+                <Position>Midfielder</Position>
+                <Age>20</Age>
+                <Nationality>Norway</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="3" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>52</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P21">
+            <Player_basicinfo>
+                <Player_name>Matheus Nunes</Player_name>
+                <Position>Midfielder</Position>
+                <Age>25</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href = "https://www.instagram.com/matheusnunes73/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="40" Goals="1" Assists="2" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>27</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P22">
+            <Player_basicinfo>
+                <Player_name>Micah Hamilton</Player_name>
+                <Position>Midfielder</Position>
+                <Age>19</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>92</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P23">
+            <Player_basicinfo>
+                <Player_name>Erling Haaland</Player_name>
+                <Position>Forward</Position>
+                <Age>23</Age>
+                <Nationality>Norway</Nationality>
+                <SNS href = "https://www.instagram.com/erling.haaland/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="45" Goals="47" Assists="10" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>9</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P24">
+            <Player_basicinfo>
+                <Player_name>Julián Álvarez</Player_name>
+                <Position>Forward</Position>
+                <Age>23</Age>
+                <Nationality>Argentina</Nationality>
+                <SNS href = "https://www.instagram.com/juliaanalvarez/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="41" Goals="13" Assists="3" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>19</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P25">
+            <Player_basicinfo>
+                <Player_name>Jérémy Doku</Player_name>
+                <Position>Forward</Position>
+                <Age>21</Age>
+                <Nationality>Belgium</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="7" Goals="1" Assists="1" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man City</Player_team>
+                <Player_num>11</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P26">
+            <Player_basicinfo>
+                <Player_name>Tom Heaton</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>37</Age>
+                <Nationality>England</Nationality>
+                <SNS href = "https://www.instagram.com/tomheatongk/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="116" Clean_sheets="28" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>22</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P27">
+            <Player_basicinfo>
+                <Player_name>Radek Vítek</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>20</Age>
+                <Nationality>Czech Republic</Nationality>
+            </Player_basicinfo>
+            <Player_statistics /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>40</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P28">
+            <Player_basicinfo>
+                <Player_name>André Onana</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>27</Age>
+                <Nationality>Cameroon</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="10" Clean_sheets="2" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>24</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P29">
+            <Player_basicinfo>
+                <Player_name>Altay Bayindir</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>25</Age>
+                <Nationality>Turkey</Nationality>
+            </Player_basicinfo>
+            <Player_statistics /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>1</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P30">
+            <Player_basicinfo>
+                <Player_name>Victor Lindelöf</Player_name>
+                <Position>Defender</Position>
+                <Age>29</Age>
+                <Nationality>Sweden</Nationality>
+                <SNS href = "https://www.instagram.com/victorlindelof/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="168" Clean_sheets="44" Goals="3" Assists="5" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>2</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P31">
+            <Player_basicinfo>
+                <Player_name>Harry Maguire</Player_name>
+                <Position>Defender</Position>
+                <Age>30</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/harrymaguire93/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="224" Clean_sheets="56" Goals="11" Assists="9" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>5</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P32">
+            <Player_basicinfo>
+                <Player_name>Lisandro Martínez</Player_name>
+                <Position>Defender</Position>
+                <Age>25</Age>
+                <Nationality>Argentina</Nationality>
+                <SNS href="https://www.instagram.com/lisandromartinezzz/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="32" Clean_sheets="8" Goals="1" Assists="1" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>6</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P33">
+            <Player_basicinfo>
+                <Player_name>Tyrell Malacia</Player_name>
+                <Position>Defender</Position>
+                <Age>24</Age>
+                <Nationality>Netherlands</Nationality>
+                <SNS href="https://www.instagram.com/tyrellmalacia/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="22" Clean_sheets="6" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>12</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P34">
+            <Player_basicinfo>
+                <Player_name>Raphaël Varane</Player_name>
+                <Position>Defender</Position>
+                <Age>30</Age>
+                <Nationality>France</Nationality>
+                <SNS href="https://www.instagram.com/raphaelvarane/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="52" Clean_sheets="14" Goals="2" Assists="1" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>19</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P35">
+            <Player_basicinfo>
+                <Player_name>Diogo Dalot</Player_name>
+                <Position>Defender</Position>
+                <Age>24</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href="https://www.instagram.com/diogodalot/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="79" Clean_sheets="16" Goals="2" Assists="4" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>20</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P36">
+            <Player_basicinfo>
+                <Player_name>Luke Shaw</Player_name>
+                <Position>Defender</Position>
+                <Age>28</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/lukeshaw23/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="241" Clean_sheets="68" Goals="3" Assists="17" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>23</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P37">
+            <Player_basicinfo>
+                <Player_name>Aaron Wan-Bissaka</Player_name>
+                <Position>Defender</Position>
+                <Age>25</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/a_bissaka/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="155" Clean_sheets="49" Goals="2" Assists="12" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>29</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P38">
+            <Player_basicinfo>
+                <Player_name>Jonny Evans</Player_name>
+                <Position>Defender</Position>
+                <Age>35</Age>
+                <Nationality>Northern Ireland</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="361" Clean_sheets="94" Goals="14" Assists="13" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>35</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P39">
+            <Player_basicinfo>
+                <Player_name>Sergio Reguilón</Player_name>
+                <Position>Defender</Position>
+                <Age>26</Age>
+                <Nationality>Spain</Nationality>
+                <SNS href="https://www.instagram.com/sergioregui/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="55" Clean_sheets="13" Goals="2" Assists="6" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>15</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P40">
+            <Player_basicinfo>
+                <Player_name>Bruno Fernandes</Player_name>
+                <Position>Midfielder</Position>
+                <Age>29</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href="https://www.instagram.com/brunofernandes.10/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="134" Goals="46" Assists="35" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>8</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P41">
+            <Player_basicinfo>
+                <Player_name>Christian Eriksen</Player_name>
+                <Position>Midfielder</Position>
+                <Age>31</Age>
+                <Nationality>Denmark</Nationality>
+                <SNS href="https://www.instagram.com/chriseriksen8/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="274" Goals="54" Assists="75" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>14</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P42">
+            <Player_basicinfo>
+                <Player_name>Casemiro</Player_name>
+                <Position>Midfielder</Position>
+                <Age>31</Age>
+                <Nationality>Brazil</Nationality>
+                <SNS href="https://www.instagram.com/casemiro/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="36" Goals="5" Assists="3" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>18</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P43">
+            <Player_basicinfo>
+                <Player_name>Facundo Pellistri</Player_name>
+                <Position>Midfielder</Position>
+                <Age>21</Age>
+                <Nationality>Uruguay</Nationality>
+                <SNS href="https://www.instagram.com/facu_pellistri/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="8" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>28</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P44">
+            <Player_basicinfo>
+                <Player_name>Donny van de Beek</Player_name>
+                <Position>Midfielder</Position>
+                <Age>26</Age>
+                <Nationality>Netherlands</Nationality>
+                <SNS href="https://www.instagram.com/donnyvdbeek/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="42" Goals="3" Assists="1" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>34</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P45">
+            <Player_basicinfo>
+                <Player_name>Scott McTominay</Player_name>
+                <Position>Midfielder</Position>
+                <Age>26</Age>
+                <Nationality>Scotland</Nationality>
+                <SNS href="https://www.instagram.com/scottmctominay/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="151" Goals="15" Assists="3" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>39</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P46">
+            <Player_basicinfo>
+                <Player_name>Kobbie Mainoo</Player_name>
+                <Position>Midfielder</Position>
+                <Age>18</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="1" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>37</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P47">
+            <Player_basicinfo>
+                <Player_name>Hannibal Mejbri</Player_name>
+                <Position>Midfielder</Position>
+                <Age>20</Age>
+                <Nationality>Tunisia</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="5" Goals="1" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>46</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P48">
+            <Player_basicinfo>
+                <Player_name>Mason Mount</Player_name>
+                <Position>Midfielder</Position>
+                <Age>24</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/masonmount/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="135" Goals="27" Assists="22" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>7</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P49">
+            <Player_basicinfo>
+                <Player_name>Omari Forson</Player_name>
+                <Position>Midfielder</Position>
+                <Age>19</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>62</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P50">
+            <Player_basicinfo>
+                <Player_name>Daniel Gore</Player_name>
+                <Position>Midfielder</Position>
+                <Age>19</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>44</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P51">
+            <Player_basicinfo>
+                <Player_name>Sofyan Amrabat</Player_name>
+                <Position>Midfielder</Position>
+                <Age>27</Age>
+                <Nationality>Morocco</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="5" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>4</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P52">
+            <Player_basicinfo>
+                <Player_name>Anthony Martial</Player_name>
+                <Position>Forward</Position>
+                <Age>27</Age>
+                <Nationality>France</Nationality>
+                <SNS href="https://www.instagram.com/martial_9/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="204" Goals="62" Assists="28" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>9</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P53">
+            <Player_basicinfo>
+                <Player_name>Marcus Rashford</Player_name>
+                <Position>Forward</Position>
+                <Age>26</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/marcusrashford/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="249" Goals="77" Assists="38" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>10</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P54">
+            <Player_basicinfo>
+                <Player_name>Antony</Player_name>
+                <Position>Forward</Position>
+                <Age>23</Age>
+                <Nationality>Brazil</Nationality>
+                <SNS href="https://www.instagram.com/antony00/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="32" Goals="4" Assists="2" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>21</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P55">
+            <Player_basicinfo>
+                <Player_name>Jadon Sancho</Player_name>
+                <Position>Forward</Position>
+                <Age>23</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/sanchooo10/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="58" Goals="9" Assists="6" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>25</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P56">
+            <Player_basicinfo>
+                <Player_name>Alejandro Garnacho</Player_name>
+                <Position>Forward</Position>
+                <Age>19</Age>
+                <Nationality>Argentina</Nationality>
+                <SNS href="https://www.instagram.com/garnacho7/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="29" Goals="3" Assists="2" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>17</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P57">
+            <Player_basicinfo>
+                <Player_name>Amad Diallo</Player_name>
+                <Position>Forward</Position>
+                <Age>21</Age>
+                <Nationality>Cote D’Ivoire</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="3" Assists="1" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>16</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P58">
+            <Player_basicinfo>
+                <Player_name>Shola Shoretire</Player_name>
+                <Position>Forward</Position>
+                <Age>19</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="3" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>47</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P59">
+            <Player_basicinfo>
+                <Player_name>Rasmus Højlund</Player_name>
+                <Position>Forward</Position>
+                <Age>20</Age>
+                <Nationality>Denmark</Nationality>
+                <SNS href="https://www.instagram.com/rasmus.hoejlund/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="7" />
+            <Player_career>
+                <Player_team>Man Utd</Player_team>
+                <Player_num>11</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P60">
+            <Player_basicinfo>
+                <Player_name>Alisson Becker</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>31</Age>
+                <Nationality>Brazil</Nationality>
+                <SNS href="https://www.instagram.com/alissonbecker/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="183" Clean_sheets="81" Goals="1" Assists="3" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>1</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P61">
+            <Player_basicinfo>
+                <Player_name>Adrián</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>36</Age>
+                <Nationality>Spain</Nationality>
+                <SNS href="https://www.instagram.com/adr13nsanmiguel/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="139" Clean_sheets="38" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>13</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P62">
+            <Player_basicinfo>
+                <Player_name>Caoimhín Kelleher</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>24</Age>
+                <Nationality>Ireland</Nationality>
+                <SNS href="https://www.instagram.com/caoimhinkelleher98/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="5" Clean_sheets="2" /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>62</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P63">
+            <Player_basicinfo>
+                <Player_name>Fabian Mrozek</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>20</Age>
+                <Nationality>Poland</Nationality>
+            </Player_basicinfo>
+            <Player_statistics /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>93</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P64">
+            <Player_basicinfo>
+                <Player_name>Marcelo Pitaluga</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>20</Age>
+                <Nationality>Brazil</Nationality>
+                <SNS href="https://www.instagram.com/mpitaluga/" />
+            </Player_basicinfo>
+            <Player_statistics /> <!--통산 EPL 기록-->
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>45</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P65">
+            <Player_basicinfo>
+                <Player_name>Vítezslav Jaros</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>22</Age>
+                <Nationality>Czech Republic</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>56</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P66">
+            <Player_basicinfo>
+                <Player_name>Joe Gomez</Player_name>
+                <Position>Defender</Position>
+                <Age>26</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/joegomez5/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="117" Clean_sheets="42" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>2</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P67">
+            <Player_basicinfo>
+                <Player_name>Virgil van Dijk</Player_name>
+                <Position>Defender</Position>
+                <Age>32</Age>
+                <Nationality>Netherlands</Nationality>
+                <SNS href="https://www.instagram.com/virgilvandijk/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="236" Clean_sheets="95" Goals="20" Assists="7"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>4</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P68">
+            <Player_basicinfo>
+                <Player_name>Ibrahima Konaté</Player_name>
+                <Position>Defender</Position>
+                <Age>24</Age>
+                <Nationality>France</Nationality>
+                <SNS href="https://www.instagram.com/ibrahimakonate/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="36" Clean_sheets="12" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>5</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P69">
+            <Player_basicinfo>
+                <Player_name>Kostas Tsimikas</Player_name>
+                <Position>Defender</Position>
+                <Age>27</Age>
+                <Nationality>Greece</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="38" Clean_sheets="5" Assists="6"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>21</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P70">
+            <Player_basicinfo>
+                <Player_name>Andy Robertson</Player_name>
+                <Position>Defender</Position>
+                <Age>29</Age>
+                <Nationality>Scotland</Nationality>
+                <SNS href="https://www.instagram.com/andyrobertson94/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="260" Clean_sheets="77" Goals="9" Assists="57" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>26</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P71">
+            <Player_basicinfo>
+                <Player_name>Joël Matip</Player_name>
+                <Position>Defender</Position>
+                <Age>32</Age>
+                <Nationality>Cameroon</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="147" Clean_sheets="53" Goals="9" Assists="5"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>32</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P72">
+            <Player_basicinfo>
+                <Player_name>Trent Alexander-Arnold</Player_name>
+                <Position>Defender</Position>
+                <Age>25</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/trentarnold66/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="206" Clean_sheets="65" Goals="12" Assists="55"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>66</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P73">
+            <Player_basicinfo>
+                <Player_name>Luke Chambers</Player_name>
+                <Position>Defender</Position>
+                <Age>19</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>44</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P74">
+            <Player_basicinfo>
+                <Player_name>Jarell Quansah</Player_name>
+                <Position>Defender</Position>
+                <Age>20</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="3" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>78</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P75">
+            <Player_basicinfo>
+                <Player_name>Conor Bradley</Player_name>
+                <Position>Defender</Position>
+                <Age>20</Age>
+                <Nationality>Northern Ireland</Nationality>
+                <SNS href="https://www.instagram.com/conorbradley.03/"/>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>84</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P76">
+            <Player_basicinfo>
+                <Player_name>Stefan Bajcetic</Player_name>
+                <Position>Midfielder</Position>
+                <Age>19</Age>
+                <Nationality>Spain</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="11" Goals="1" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>43</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P77">
+            <Player_basicinfo>
+                <Player_name>Thiago Alcântara</Player_name>
+                <Position>Midfielder</Position>
+                <Age>32</Age>
+                <Nationality>Spain</Nationality>
+                <SNS href="https://www.instagram.com/thiago6/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="67" Goals="2" Assists="4"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>6</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P78">
+            <Player_basicinfo>
+                <Player_name>Curtis Jones</Player_name>
+                <Position>Midfielder</Position>
+                <Age>22</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/curtisjr/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="68" Goals="6" Assists="4"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>17</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P79">
+            <Player_basicinfo>
+                <Player_name>Harvey Elliott</Player_name>
+                <Position>Midfielder</Position>
+                <Age>20</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/harveyelliott07/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="50" Goals="1" Assists="2"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>19</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P80">
+            <Player_basicinfo>
+                <Player_name>Bobby Clark</Player_name>
+                <Position>Midfielder</Position>
+                <Age>18</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/bobbyclark/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="1" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>42</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P81">
+            <Player_basicinfo>
+                <Player_name>Alexis Mac Allister</Player_name>
+                <Position>Midfielder</Position>
+                <Age>24</Age>
+                <Nationality>Argentina</Nationality>
+                <SNS href="https://www.instagram.com/alemacallister/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="1" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>10</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P82">
+            <Player_basicinfo>
+                <Player_name>Dominik Szoboszlai</Player_name>
+                <Position>Midfielder</Position>
+                <Age>23</Age>
+                <Nationality>Hungary</Nationality>
+                <SNS href="https://www.instagram.com/szoboszlaidominik/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="10" Goals="1" Assists="2"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>8</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P83">
+            <Player_basicinfo>
+                <Player_name>Wataru Endo</Player_name>
+                <Position>Midfielder</Position>
+                <Age>30</Age>
+                <Nationality>Japan</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="6" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>3</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P84">
+            <Player_basicinfo>
+                <Player_name>Ryan Gravenberch</Player_name>
+                <Position>Midfielder</Position>
+                <Age>21</Age>
+                <Nationality>Netherlands</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="6" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>38</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P85">
+            <Player_basicinfo>
+                <Player_name>Mohamed Salah</Player_name>
+                <Position>Forward</Position>
+                <Age>31</Age>
+                <Nationality>Egypt</Nationality>
+                <SNS href="https://www.instagram.com/mosalah/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="241" Goals="147" Assists="63"/>
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>11</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P86">
+            <Player_basicinfo>
+                <Player_name>Cody Gakpo</Player_name>
+                <Position>Forward</Position>
+                <Age>24</Age>
+                <Nationality>Netherlands</Nationality>
+                <SNS href="https://www.instagram.com/codymathesgakpo/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="29" Goals="9" Assists="2" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>18</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P87">
+            <Player_basicinfo>
+                <Player_name>Diogo Jota</Player_name>
+                <Position>Forward</Position>
+                <Age>26</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href="https://www.instagram.com/diogoj_18/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="152" Goals="50" Assists="14" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>20</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P88">
+            <Player_basicinfo>
+                <Player_name>Luis Díaz</Player_name>
+                <Position>Forward</Position>
+                <Age>26</Age>
+                <Nationality>Colombia</Nationality>
+                <SNS href="https://www.instagram.com/luisdiaz19_/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="39" Goals="10" Assists="5" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>7</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P89">
+            <Player_basicinfo>
+                <Player_name>Darwin Núñez</Player_name>
+                <Position>Forward</Position>
+                <Age>24</Age>
+                <Nationality>Uruguay</Nationality>
+                <SNS href="https://www.instagram.com/darwin_n9/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="38" Goals="13" Assists="6" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>9</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P90">
+            <Player_basicinfo>
+                <Player_name>Ben Doak</Player_name>
+                <Position>Forward</Position>
+                <Age>17</Age>
+                <Nationality>Scotland</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="3" />
+            <Player_career>
+                <Player_team>Liverpool</Player_team>
+                <Player_num>50</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P91">
+            <Player_basicinfo>
+                <Player_name>José Sá</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>30</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href="https://www.instagram.com/josesaoficial/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="83" Clean_sheets="23" Assists="1"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>1</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P92">
+            <Player_basicinfo>
+                <Player_name>Dan Bentley</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>30</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="2" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>25</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P93">
+            <Player_basicinfo>
+                <Player_name>Tom King</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>28</Age>
+                <Nationality>Wales</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>40</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P94">
+            <Player_basicinfo>
+                <Player_name>Rayan Aït-Nouri</Player_name>
+                <Position>Defender</Position>
+                <Age>22</Age>
+                <Nationality>Algeria</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="75" Clean_sheets="10" Goals="3" Assists="3"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>3</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P95">
+            <Player_basicinfo>
+                <Player_name>Craig Dawson</Player_name>
+                <Position>Defender</Position>
+                <Age>33</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="273" Clean_sheets="60" Goals="20" Assists="4"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>15</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P96">
+            <Player_basicinfo>
+                <Player_name>Jonny Otto</Player_name>
+                <Position>Defender</Position>
+                <Age>29</Age>
+                <Nationality>Spain</Nationality>
+                <SNS href="https://www.instagram.com/jonnyotto19/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="107" Clean_sheets="20" Goals="6" Assists="3"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>19</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P97">
+            <Player_basicinfo>
+                <Player_name>Nélson Semedo</Player_name>
+                <Position>Defender</Position>
+                <Age>29</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href="https://www.instagram.com/nelsonsemedo50/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="104" Clean_sheets="22" Goals="1" Assists="3"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>22</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P98">
+            <Player_basicinfo>
+                <Player_name>Maximilian Kilman</Player_name>
+                <Position>Defender</Position>
+                <Age>26</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/maximiliankilman/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="99" Clean_sheets="27" Goals="1" Assists="1"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>23</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P99">
+            <Player_basicinfo>
+                <Player_name>Toti Gomes</Player_name>
+                <Position>Defender</Position>
+                <Age>24</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href="https://www.instagram.com/toti_gomes23/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="28" Clean_sheets="4" Goals="1" Assists="1"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>24</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P100">
+            <Player_basicinfo>
+                <Player_name>Hugo Bueno</Player_name>
+                <Position>Defender</Position>
+                <Age>21</Age>
+                <Nationality>Spain</Nationality>
+                <SNS href="https://www.instagram.com/hugobuenoo_/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="27" Assists="1" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>17</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P101">
+            <Player_basicinfo>
+                <Player_name>Matt Doherty</Player_name>
+                <Position>Defender</Position>
+                <Age>31</Age>
+                <Nationality>Ireland</Nationality>
+                <SNS href="https://www.instagram.com/mattdoherty20/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="124" Clean_sheets="25" Goals="11" Assists="14"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>2</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P102">
+            <Player_basicinfo>
+                <Player_name>Santiago Bueno</Player_name>
+                <Position>Defender</Position>
+                <Age>24</Age>
+                <Nationality>Uruguay</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>4</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P103">
+            <Player_basicinfo>
+                <Player_name>Mario Lemina</Player_name>
+                <Position>Midfielder</Position>
+                <Age>30</Age>
+                <Nationality>Gabon</Nationality>
+                <SNS href="https://www.instagram.com/lemsm13/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="102" Goals="4" Assists="3"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>5</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P104">
+            <Player_basicinfo>
+                <Player_name>Pablo Sarabia</Player_name>
+                <Position>Midfielder</Position>
+                <Age>31</Age>
+                <Nationality>Spain</Nationality>
+                <SNS href="https://www.instagram.com/pablosarabia92/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="18" Goals="1" Assists="1"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>21</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P105">
+            <Player_basicinfo>
+                <Player_name>João Gomes</Player_name>
+                <Position>Midfielder</Position>
+                <Age>22</Age>
+                <Nationality>Brazil</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="21" Goals="1" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>8</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P106">
+            <Player_basicinfo>
+                <Player_name>Joe Hodge</Player_name>
+                <Position>Midfielder</Position>
+                <Age>21</Age>
+                <Nationality>Ireland</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="6" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>32</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P107">
+            <Player_basicinfo>
+                <Player_name>Boubacar Traoré</Player_name>
+                <Position>Midfielder</Position>
+                <Age>22</Age>
+                <Nationality>Mali</Nationality>
+                <SNS href="https://www.instagram.com/traore__8/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="17" Assists="1" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>6</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P108">
+            <Player_basicinfo>
+                <Player_name>Tommy Doyle</Player_name>
+                <Position>Midfielder</Position>
+                <Age>22</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="5" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>20</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P109">
+            <Player_basicinfo>
+                <Player_name>Jean-Ricner Bellegarde</Player_name>
+                <Position>Midfielder</Position>
+                <Age>25</Age>
+                <Nationality>France</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="2" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>27</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P110">
+            <Player_basicinfo>
+                <Player_name>Pedro Neto</Player_name>
+                <Position>Forward</Position>
+                <Age>23</Age>
+                <Nationality>Portugal</Nationality>
+                <SNS href="https://www.instagram.com/pedroneto_30/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="101" Goals="10" Assists="17"/>
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>7</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P111">
+            <Player_basicinfo>
+                <Player_name>Hwang Hee-Chan</Player_name>
+                <Position>Forward</Position>
+                <Age>27</Age>
+                <Nationality>South Korea</Nationality>
+                <SNS href="https://www.instagram.com/hwangheechan/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="67" Goals="14" Assists="3" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>11</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P112">
+            <Player_basicinfo>
+                <Player_name>Sasa Kalajdzic</Player_name>
+                <Position>Forward</Position>
+                <Age>26</Age>
+                <Nationality>Austria</Nationality>
+                <SNS href="https://www.instagram.com/sasakalajdzic/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="7" Goals="2" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>18</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P113">
+            <Player_basicinfo>
+                <Player_name>Nathan Fraser</Player_name>
+                <Position>Forward</Position>
+                <Age>18</Age>
+                <Nationality>Ireland</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>63</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P114">
+            <Player_basicinfo>
+                <Player_name>Fábio Silva</Player_name>
+                <Position>Forward</Position>
+                <Age>21</Age>
+                <Nationality>Portugal</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="61" Goals="4" Assists="3" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>9</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P115">
+            <Player_basicinfo>
+                <Player_name>Matheus Cunha</Player_name>
+                <Position>Forward</Position>
+                <Age>24</Age>
+                <Nationality>Brazil</Nationality>
+                <SNS href="https://www.instagram.com/cunha/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="27" Goals="4" Assists="1" />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>12</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P116">
+            <Player_basicinfo>
+                <Player_name>Emilio Ballard-Matthews</Player_name>
+                <Position>Forward</Position>
+                <Age>15</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>78</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P117">
+            <Player_basicinfo>
+                <Player_name>Enso González</Player_name>
+                <Position>Forward</Position>
+                <Age>18</Age>
+                <Nationality>Paraguay</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Wolves</Player_team>
+                <Player_num>30</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P118">
+            <Player_basicinfo>
+                <Player_name>Hugo Lloris</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>36</Age>
+                <Nationality>France</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="361" Clean_sheets="127" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>1</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P119">
+            <Player_basicinfo>
+                <Player_name>Fraser Forster</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>35</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="148" Clean_sheets="45" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>20</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P120">
+            <Player_basicinfo>
+                <Player_name>Brandon Austin</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>24</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>40</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P121">
+            <Player_basicinfo>
+                <Player_name>Alfie Whiteman</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>25</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>41</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P122">
+            <Player_basicinfo>
+                <Player_name>Guglielmo Vicario</Player_name>
+                <Position>Goalkeeper</Position>
+                <Age>27</Age>
+                <Nationality>Italy</Nationality>
+                <SNS href="https://www.instagram.com/guglielmovicario/?hl=en" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="10" Clean_sheets="4" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>13</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P123">
+            <Player_basicinfo>
+                <Player_name>Emerson Royal</Player_name>
+                <Position>Defender</Position>
+                <Age>24</Age>
+                <Nationality>Brazil</Nationality>
+                <SNS href="https://www.instagram.com/emerson_royal/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="64" Clean_sheets="12" Goals="4" Assists="2" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>12</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P124">
+            <Player_basicinfo>
+                <Player_name>Eric Dier</Player_name>
+                <Position>Defender</Position>
+                <Age>29</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/ericdier15/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="270" Clean_sheets="86" Goals="12" Assists="9" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>15</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P125">
+            <Player_basicinfo>
+                <Player_name>Cristian Romero</Player_name>
+                <Position>Defender</Position>
+                <Age>25</Age>
+                <Nationality>Argentina</Nationality>
+                <SNS href="https://www.instagram.com/cutiromero2/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="59" Clean_sheets="15" Goals="3" Assists="1" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>17</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P126">
+            <Player_basicinfo>
+                <Player_name>Ben Davies</Player_name>
+                <Position>Defender</Position>
+                <Age>30</Age>
+                <Nationality>Wales</Nationality>
+                <SNS href="https://www.instagram.com/bendavies33/" />
+            </Player_basicinfo>
+            <Player_statistics Appearances="284" Clean_sheets="75" Goals="9" Assists="19" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>33</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P127">
+            <Player_basicinfo>
+                <Player_name>Pedro Porro</Player_name>
+                <Position>Defender</Position>
+                <Age>24</Age>
+                <Nationality>Spain</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="24" Clean_sheets="4" Goals="3" Assists="4" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>23</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P128">
+            <Player_basicinfo>
+                <Player_name>Destiny Udogie</Player_name>
+                <Position>Defender</Position>
+                <Age>20</Age>
+                <Nationality>Italy</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="9" Assists="2"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>38</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P129">
+            <Player_basicinfo>
+                <Player_name>Ashley Phillips</Player_name>
+                <Position>Defender</Position>
+                <Age>18</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>35</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P130">
+            <Player_basicinfo>
+                <Player_name>Micky van de Ven</Player_name>
+                <Position>Defender</Position>
+                <Age>22</Age>
+                <Nationality>Netherlands</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="10" Clean_sheets="4" Goals="1" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>37</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P131">
+            <Player_basicinfo>
+                <Player_name>Oliver Skipp</Player_name>
+                <Position>Midfielder</Position>
+                <Age>23</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/oliver.skipp/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="62" Goals="1" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>4</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P132">
+            <Player_basicinfo>
+                <Player_name>Pierre-Emile Højbjerg</Player_name>
+                <Position>Midfielder</Position>
+                <Age>28</Age>
+                <Nationality>Denmark</Nationality>
+                <SNS href="https://www.instagram.com/hojbjerg23/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="227" Goals="12" Assists="15"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>5</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P133">
+            <Player_basicinfo>
+                <Player_name>Ivan Perisic</Player_name>
+                <Position>Midfielder</Position>
+                <Age>34</Age>
+                <Nationality>Croatia</Nationality>
+                <SNS href="https://www.instagram.com/ivanperisic444/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="39" Goals="1" Assists="9"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>14</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P134">
+            <Player_basicinfo>
+                <Player_name>Ryan Sessegnon</Player_name>
+                <Position>Midfielder</Position>
+                <Age>23</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/ryansess/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="73" Goals="4" Assists="8"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>19</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P135">
+            <Player_basicinfo>
+                <Player_name>Pape Matar Sarr</Player_name>
+                <Position>Midfielder</Position>
+                <Age>21</Age>
+                <Nationality>Senegal</Nationality>
+                <SNS href="https://www.instagram.com/pape_matar_sarr_15/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="21" Goals="1" Assists="2"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>29</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P136">
+            <Player_basicinfo>
+                <Player_name>Rodrigo Bentancur</Player_name>
+                <Position>Midfielder</Position>
+                <Age>26</Age>
+                <Nationality>Uruguay</Nationality>
+                <SNS href="https://www.instagram.com/rodrigo_bentancur/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="36" Goals="5" Assists="6"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>30</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P137">
+            <Player_basicinfo>
+                <Player_name>Yves Bissouma</Player_name>
+                <Position>Midfielder</Position>
+                <Age>27</Age>
+                <Nationality>Mali</Nationality>
+                <SNS href="https://www.instagram.com/yves_bissouma/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="144" Goals="3" Assists="2"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>8</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P138">
+            <Player_basicinfo>
+                <Player_name>Dejan Kulusevski</Player_name>
+                <Position>Midfielder</Position>
+                <Age>23</Age>
+                <Nationality>Sweden</Nationality>
+                <SNS href="https://www.instagram.com/dejan.k10/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="58" Goals="9" Assists="15"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>21</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P139">
+            <Player_basicinfo>
+                <Player_name>James Maddison</Player_name>
+                <Position>Midfielder</Position>
+                <Age>26</Age>
+                <Nationality>England</Nationality>
+                <SNS href="https://www.instagram.com/madders/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="173" Goals="46" Assists="37"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>10</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P140">
+            <Player_basicinfo>
+                <Player_name>Giovani Lo Celso</Player_name>
+                <Position>Midfielder</Position>
+                <Age>27</Age>
+                <Nationality>Argentina</Nationality>
+                <SNS href="https://www.instagram.com/locelsogiovani/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="57" Goals="1" Assists="3"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>18</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P141">
+            <Player_basicinfo>
+                <Player_name>Son Heung-Min</Player_name>
+                <Position>Forward</Position>
+                <Age>31</Age>
+                <Nationality>South Korea</Nationality>
+                <SNS href="https://www.instagram.com/hm_son7/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="278" Goals="111" Assists="53"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>7</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P142">
+            <Player_basicinfo>
+                <Player_name>Richarlison</Player_name>
+                <Position>Forward</Position>
+                <Age>26</Age>
+                <Nationality>Brazil</Nationality>
+                <SNS href="https://www.instagram.com/richarlison/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="210" Goals="50" Assists="22"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>9</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P143">
+            <Player_basicinfo>
+                <Player_name>Jamie Donley</Player_name>
+                <Position>Forward</Position>
+                <Age>18</Age>
+                <Nationality>England</Nationality>
+            </Player_basicinfo>
+            <Player_statistics />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>63</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P144">
+            <Player_basicinfo>
+                <Player_name>Bryan Gil</Player_name>
+                <Position>Forward</Position>
+                <Age>22</Age>
+                <Nationality>Spain</Nationality>
+                <SNS href="https://www.instagram.com/bryan11gil/"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="14" Assists="1"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>11</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P145">
+            <Player_basicinfo>
+                <Player_name>Manor Solomon</Player_name>
+                <Position>Forward</Position>
+                <Age>24</Age>
+                <Nationality>Israel</Nationality>
+                <SNS href="https://www.instagram.com/manorsolomon/?hl=en"/>
+            </Player_basicinfo>
+            <Player_statistics Appearances="24" Goals="4" Assists="2"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>27</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P146">
+            <Player_basicinfo>
+                <Player_name>Alejo Véliz</Player_name>
+                <Position>Forward</Position>
+                <Age>20</Age>
+                <Nationality>Argentina</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="3" />
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>36</Player_num>
+            </Player_career>
+        </Player>
+        <Player Player_id="P147">
+            <Player_basicinfo>
+                <Player_name>Brennan Johnson</Player_name>
+                <Position>Forward</Position>
+                <Age>22</Age>
+                <Nationality>Wales</Nationality>
+            </Player_basicinfo>
+            <Player_statistics Appearances="45" Goals="8" Assists="4"/>
+            <Player_career>
+                <Player_team>Spurs</Player_team>
+                <Player_num>22</Player_num>
+            </Player_career>
+        </Player>
+    </Players>
+</Sports>
+
+

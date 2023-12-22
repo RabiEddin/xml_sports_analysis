@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://www.matches.org"
+            xmlns="http://www.matches.org"
+            xmlns:ply="http://www.Players.org"
+            elementFormDefault="qualified">
+    <xsd:import namespace="http://www.Players.org"
+                schemaLocation="XML-FinalProject-KimDoyoon-21011682-5.xsd" />
+
+    <xsd:element name="match_result">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="Winner" />
+                <xsd:element ref="Loser" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="Winner" type="winner_loser_type" />
+    <xsd:element name="Loser" type="winner_loser_type" />
+    <xsd:complexType name="winner_loser_type">
+        <xsd:sequence>
+            <xsd:element ref="team_name" />
+            <xsd:element ref="manager" />
+            <xsd:element ref="strategy" />
+            <xsd:element ref="starting_list" />
+            <xsd:element ref="substitutes" />
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:element name="team_name" type="team_name_type" />
+    <xsd:complexType name="team_name_type">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="team_info" use="required" type="team_info_type" />
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:simpleType name="team_info_type">
+        <xsd:restriction base="xsd:IDREF">
+            <xsd:pattern value="T\d+" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="manager" type="xsd:string" />
+    <xsd:element name="strategy" type="strategy_type" />
+    <xsd:simpleType name="strategy_type">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d-\d-\d(-\d)*" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="starting_list">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="match_player" minOccurs="1" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="substitutes">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="match_player" minOccurs="0" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="match_player">
+        <xsd:complexType>
+            <xsd:attribute name="num" use="required" type="xsd:integer" />
+            <xsd:attribute name="position" use="required" type="ply:Position_type" />
+            <xsd:attribute name="captain" default="no">
+                <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                        <xsd:enumeration value="yes" />
+                        <xsd:enumeration value="no" />
+                    </xsd:restriction>
+                </xsd:simpleType>
+            </xsd:attribute>
+            <xsd:attribute name="goal" type="xsd:integer" />
+            <xsd:attribute name="own_goal" type="xsd:integer" />
+            <xsd:attribute name="replaced_num" type="xsd:integer" />
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
